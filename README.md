@@ -21,7 +21,7 @@ Every time changes are pushed to the `main` branch, Cloudflare rebuilds and upda
 
 ## 📬 Contact
 Project maintained by **Soli L**  
-📧 [soli.adventures@gmail.com](mailto:soli.adventures@gmail.com)
+📧 [admin@soli-journey.com](mailto:admin@soli-journey.com)
 
 ---
 
