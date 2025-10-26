@@ -26,4 +26,3 @@ Project maintained by **Soli L**
 ---
 
 © 2025 Soli Journey. All rights reserved.
-
