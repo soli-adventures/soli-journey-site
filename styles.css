@@ -55,6 +55,34 @@ header h1 {
     font-weight: 300;
 }
 
+/* Navigation Menu */
+.nav-menu {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background: rgba(251, 191, 36, 0.2);
+    color: var(--secondary-color);
+}
+
+.nav-menu a.active {
+    background: var(--primary-color);
+    color: var(--dark-bg);
+    font-weight: 600;
+}
+
 /* Main Content */
 main {
     padding: 3rem 2rem;
@@ -133,6 +161,61 @@ footer a:hover {
     color: var(--primary-color);
 }
 
+/* About Page Styles */
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-section {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.about-section h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.about-section p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.about-section ul {
+    list-style-position: inside;
+    color: var(--text-secondary);
+    line-height: 2;
+    margin-left: 1rem;
+}
+
+.about-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+    padding: 1rem;
+    background: var(--light-bg);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -144,6 +227,15 @@ footer a:hover {
     }
 
     .tagline {
+        font-size: 1rem;
+    }
+
+    .nav-menu {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .nav-menu a {
         font-size: 1rem;
     }
 
@@ -161,6 +253,10 @@ footer a:hover {
 
     main {
         padding: 2rem 1rem;
+    }
+
+    .about-section {
+        padding: 1.5rem;
     }
 }
 
